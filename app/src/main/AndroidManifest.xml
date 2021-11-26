@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.appvenda">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="ExtraText">
+
+        <activity
+            android:name=".ListaClienteActivity"
+            android:parentActivityName=".ClienteActivity" />
+        <activity
+            android:name=".ExcluirProdutoActivity"
+            android:parentActivityName=".ProdutosActivity" />
+        <activity
+            android:name=".ListaProdutosActivity"
+            android:parentActivityName=".ProdutosActivity" />
+        <activity
+            android:name=".AtualizarProdutosActivity"
+            android:parentActivityName=".ProdutosActivity" />
+        <activity
+            android:name=".FuncionariosActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".ListaFuncionariosActivity"
+            android:parentActivityName=".FuncionariosActivity" />
+        <activity
+            android:name=".AtualizarFuncionarioActivity"
+            android:parentActivityName=".ListaFuncionariosActivity" />
+        <activity
+            android:name=".CadastroFuncionarioActivity"
+            android:parentActivityName=".FuncionariosActivity" />
+        <activity
+            android:name=".ProdutosActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CadastroProdutoActivity"
+            android:parentActivityName=".ProdutosActivity" />
+
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".MainActivity" />
+
+        <activity
+            android:name=".ClienteActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AtualizarClienteActivity"
+            android:parentActivityName=".ListaClienteActivity" />
+        <activity
+            android:name=".CadastroClienteActivity"
+            android:parentActivityName=".ClienteActivity" />
+        <activity android:name=".MainActivity">
+
+            <!-- -android:screenOrientation="" -->
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
