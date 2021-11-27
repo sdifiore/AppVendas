@@ -1,6 +1,14 @@
 <resources>
-    <string name="app_name">AppVenda</string>
+    <string name="app_name">iFruta</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="produtos">Produtos</string>
+    <string name="title_activity_cliente_login">ClienteLoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Entrar ou novo registro</string>
+    <string name="action_sign_in_short">Entrar</string>
+    <string name="welcome">"Bem-Vindo !"</string>Nome de usuário não válido</string>
+    <string name="invalid_password">Senha deve ter mais de 5 caracteres</string>
+    <string name="login_failed">"Erro ao entrar"</string>
 </resources>

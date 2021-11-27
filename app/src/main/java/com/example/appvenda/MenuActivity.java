@@ -3,12 +3,8 @@ package com.example.appvenda;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
 
 public class MenuActivity extends AppCompatActivity {
     @Override
@@ -44,7 +40,7 @@ public class MenuActivity extends AppCompatActivity {
     }
 
     public void login(View view) {
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, ClienteLoginActivity.class);
         startActivity(intent);
     }
 
