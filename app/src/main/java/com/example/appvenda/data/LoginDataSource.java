@@ -1,6 +1,6 @@
 package com.example.appvenda.data;
 
-import com.example.appvenda.data.model.LoggedInUser;
+import com.example.appvenda.model.LoggedInUser;
 
 import java.io.IOException;
 

@@ -1,6 +1,6 @@
 package com.example.appvenda.data;
 
-import com.example.appvenda.data.model.LoggedInUser;
+import com.example.appvenda.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and
