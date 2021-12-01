@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="Sergio Di Fiore" pattern="file[AppVenda*]:*//*" />
+</component>

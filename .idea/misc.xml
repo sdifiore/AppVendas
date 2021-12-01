@@ -5,7 +5,11 @@
       <map>
         <entry key="..\:/AndroidStudio/AppVenda/app/src/main/res/drawable/ic_launcher_background.xml" value="0.35052083333333334" />
         <entry key="..\:/AndroidStudio/AppVenda/app/src/main/res/layout/activity_cliente_login.xml" value="0.3255208333333333" />
-        <entry key="..\:/AndroidStudio/AppVenda/app/src/main/res/layout/activity_menu.xml" value="0.15695630336514316" />
+        <entry key="..\:/AndroidStudio/AppVenda/app/src/main/res/layout/activity_main.xml" value="0.1479156202913109" />
+        <entry key="..\:/AndroidStudio/AppVenda/app/src/main/res/layout/activity_menu.xml" value="0.25" />
+        <entry key="..\:/AndroidStudio/AppVenda/app/src/main/res/layout/activity_menu2.xml" value="0.1479156202913109" />
+        <entry key="..\:/AndroidStudio/AppVenda/app/src/main/res/layout/content_update_database.xml" value="0.33" />
+        <entry key="..\:/AndroidStudio/AppVenda/app/src/main/res/layout/fragment_first2.xml" value="0.2296195652173913" />
       </map>
     </option>
   </component>
