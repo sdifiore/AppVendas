@@ -27,7 +27,7 @@ import com.example.appvenda.ui.login.LoginViewModel;
 import com.example.appvenda.ui.login.LoginViewModelFactory;
 import com.example.appvenda.databinding.ActivityClienteLoginBinding;
 
-public class LoginActivity extends AppCompatActivity {
+class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
     private ActivityClienteLoginBinding binding;
